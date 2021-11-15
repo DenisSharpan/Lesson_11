@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext");
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	/* color: #000; */
+	/* font-family:""; */
+	overflow-x: hidden;
+	font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	padding: 200px 0;
+}
+/* ------------------------------ */
+
+.wrapper {
+}
+.header {
+}
+.main {
+}
+.who-we-are {
+}
+.who-we-are__container {
+}
+.who-we-are__main {
+	padding: 100px 87px 20px 87px;
+	background: #5d62b5;
+	border-radius: 40px;
+	position: relative;
+	margin: 0 0 300px 0;
+}
+.who-we-are__main::after {
+	content: "";
+	background: url("../img/who-we-are/Stylize\ Circles.png") 0 0 no-repeat;
+	width: 201px;
+	height: 317px;
+	position: absolute;
+	top: 105px;
+	right: 76px;
+}
+.who-we-are__main::before {
+	content: "";
+	background: url("../img/who-we-are/Blob\ 2.png") 0 0 no-repeat;
+	width: 665px;
+	height: 591px;
+	position: absolute;
+	bottom: -100px;
+	left: -7px;
+	z-index: 1;
+}
+._container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.who-we-are__heading {
+	margin: 0 0 36px 0;
+	position: relative;
+	z-index: 2;
+}
+.heading {
+	max-width: 583px;
+}
+.heading__title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #f5f5f5;
+	margin: 0 0 33px 0;
+	padding: 0 0 0 41px;
+	position: relative;
+}
+.heading__title::before {
+	content: "";
+	background: url("../img/icons/01.svg") 0 0 no-repeat;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: -2px;
+	left: 0;
+}
+.heading__subtitle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+}
+.who-we-are__text {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #f5f5f5;
+	margin: 0 0 54px 0;
+	position: relative;
+	z-index: 2;
+}
+.who-we-are__item {
+	position: relative;
+	z-index: 2;
+}
+.who-we-are__image {
+	filter: drop-shadow(0px 8px 16px rgba(38, 38, 38, 0.24)) drop-shadow(0px 16px 24px rgba(38, 38, 38, 0.2));
+	border-radius: 40px;
+	margin: 0 0 -124px 0;
+	max-width: 100%;
+}
+
+.info {
+}
+.info span {
+	font-size: 30px;
+	font-weight: 700;
+	color: red;
+}
+
+.footer {
+}
