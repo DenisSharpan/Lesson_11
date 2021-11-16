@@ -78,8 +78,8 @@ body {
 	width: 201px;
 	height: 317px;
 	position: absolute;
-	top: 105px;
-	right: 76px;
+	top: -105px;
+	right: -76px;
 }
 .who-we-are__main::before {
 	content: "";
